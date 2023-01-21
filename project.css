@@ -1,0 +1,326 @@
+#headimg{
+    width: 150px;
+}
+nav{
+    background-color: beige;
+    text-align: right;
+    font-size: medium;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+nav a:active{
+    color: rgb(137, 224, 94);
+}
+body{
+    background-image: url("movienew1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#main{
+    text-align: left;
+    color: aliceblue;
+    font-family: 'Lato', cursive;
+    font-size: 70px;
+}
+#submain{
+    font-family: 'Lato', cursive;
+    font-size: 40px;
+}
+#city{
+    padding: 10px;
+    margin-left: 220px;
+    display: block;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+}
+#city12{
+    padding: 10px;
+    margin-left: 270px;
+    display: block;
+    margin-right: auto;
+    padding: 10px;
+    background-color: antiquewhite;
+    animation: 2s city12 alternate infinite;
+    width: 100px;
+    text-align: center;
+}
+@keyframes city12{
+    0% {background-color: antiquewhite;}
+    100% {background-color: rgb(0, 11, 11); color: aliceblue;}
+
+}
+#submit{
+    padding: 7px;
+    width: 70px;
+    display: block;
+    text-align: center;
+    margin-left: 290px;
+    margin-right: auto;
+    background-color: rgb(7, 11, 0);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 15px;
+}
+#submit:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+
+@media only screen and (max-width: 500px) {
+    #city1{
+        margin-left: 112px;
+    }
+    #city{
+        margin-left: 67px;
+    }
+    #body{
+        background-color: rgb(254, 55, 55);
+    }
+    #submit{
+        margin-left: 140px;
+    }
+    #suggestion{
+        width: 300px;
+    }
+    
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#payment{
+    background-color: rgb(245, 244, 242);
+    background-position: 100%;
+    border: 5px solid rgb(152, 149, 149);
+    width: 100%;
+    padding: 5px 20px 15px 20px;
+    
+    margin-right: 15px 30px;
+    
+}
+input{
+    width: 100%;
+    padding: 5px;
+
+}
+*{
+    box-sizing: border-box;
+}
+input[type="submit"]{
+    background-color: rgb(16, 229, 158);
+    color: white;
+    padding: 13px;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    border: none;
+    
+}
+input[type="submit"]:hover{
+    background-color: brown;
+}
+#imp{
+    background-color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid;
+    animation: an 4s infinite reverse;
+}
+@keyframes an{
+    0%{background-color: bisque;color: black;}
+    50%{background-color: brown;color: yellow;}
+    100%{background-color: black;color: white;}
+}
+#special{
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: bisque;
+    border-radius: 50%;
+    position: relative;
+    animation: speciall 4s infinite alternate;
+}
+@keyframes speciall {
+    0%{padding: 15px;background-color: bisque;border: 10px black;}
+    100%{padding: 25px;background-color: black;color: aliceblue;border: 10px white;}
+}
+form{
+    padding: 15px;
+    border: 2px solid;
+    background-color: beige;
+}
+p{
+    font-size: 18px;
+    font-weight: 500;
+}
+input{
+    width: 300px;
+}
+#sugg{
+    display: block;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#sugg:hover{
+    background-color: azure;
+}
+#suggestion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    margin: 10px solid black;
+    background-color: beige;
+
+}
+div h1{
+    text-decoration: none;
+}
+#box2 a{
+    text-align: center;
+    display: block;
+
+}
+#text{
+    text-align: center;
+}
+#aboutus{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+#tag{
+    background-color: beige;
+    display: block;
+}
+#aarav{
+    font-size: large;
+    text-align: center;
+    display: block;
+}
+#aaravhead{
+    text-align: center;
+    font-size: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#exampleInputEmail1,#exampleInputPassword1,#inputEmail4,#inputPassword4,#inputPassword{
+    padding: 8px;
+    border: 2px solid;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#sbmit{
+    display: block;
+    padding: 10px;
+    background-color: greenyellow;
+    text-align: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#sbmit:hover{
+    background-color: brown;
+    color: aliceblue;
+}
+#sbmit:active{
+    background-color: black;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 5px;
+}
+#check,check123{
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#check123{
+    text-align: center;
+    display: block;
+    
+}
+#new123456{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: aliceblue;
+    width: 650px;
+    height: 50px;
+    padding: 15px;
+    animation: loop 3s alternate infinite;
+    border-radius:15px;
+}
+@keyframes loop {
+    0%{background-color: black;color: aliceblue;}
+    100%{background-color: aliceblue;color: black;}
+    
+}
+#city1{
+    padding: 10px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    padding: 10px;
+    background-color: antiquewhite;
+    animation: 2s city12 alternate infinite;
+    width: 100px;
+    text-align: center;
+}
+#city15{
+    padding: 10px;
+    margin-left: auto;
+    display: block;
+    margin-right: auto;
+    width: 200px;
+    text-align: center;
+}
+#submit123{
+    padding: 7px;
+    width: 70px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(7, 11, 0);
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 15px;
+}
+#submit123:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+#hy{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#new123456:hover{
+    color: white;
+}
+
+
